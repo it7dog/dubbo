@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+    <typeAliases>
+
+        <typeAlias alias="ProductEntity" type="com.dubbo.entity.product.ProductEntity" />
+        <typeAlias alias="CategoryEntity" type="com.dubbo.entity.product.CategoryEntity" />
+        <typeAlias alias="BrandEntity" type="com.dubbo.entity.product.BrandEntity" />
+        <typeAlias alias="ProdInsertReq" type="com.dubbo.req.product.ProdInsertReq" />
+
+    </typeAliases>
+</configuration>
